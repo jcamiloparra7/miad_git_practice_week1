@@ -23,6 +23,7 @@ app.config.suppress_callback_exceptions = True
 def load_data():
     return pd.read_csv("datos_energia.csv", index_col=0, parse_dates=True)
     
+# Cambio para el pull request johana
 
 # Cargar datos
 data = load_data()
