@@ -237,6 +237,7 @@ def update_output_div(date, hour, proy):
         plot = plot_series(data, initial_date, int(proy))
         return plot
 
+# Add comment for remote commit
 
 # Run the server
 if __name__ == "__main__":
